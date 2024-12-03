@@ -120,11 +120,12 @@ div#formulario > form > input#ientrar:hover {
 }
 
 div#formulario > form > input#ireset {
-    color: rgb(47, 106, 169);background-color: rgb(206, 232, 255);
-    border: 0px;
+    background-color: white;
+    /* color: rgb(47, 106, 169);background-color: rgb(206, 232, 255); */
+    border: 1px solid rgba(23, 129, 182, 0.696);
 }
 
 div#formulario > form > input#ireset:hover {
     color: white;
-    background-color: rgba(1, 57, 135, 0.89);
+    background-color: rgba(23, 129, 182, 0.696);
 }
