@@ -7,6 +7,17 @@
     box-sizing: border-box;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 100;
+
+  color: white;
+  padding: 0px 0px 0px 5px;
+}
+
 body, html {
     background-color: rgb(108, 135, 158);
     height: 100vh;
@@ -48,4 +59,70 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > form > p > input {
+    padding-left: 5px;
+    
+}
+
+div#formulario > h1 {
+    text-align: center
+}
+
+div#formulario > p {
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+div#formulario > form > p {
+    position: relative;
+    border: 2px solid rgba(223, 120, 17, 0.818);
+    background-color: rgba(223, 120, 17, 0.818);
+    padding-top: px;
+    margin-bottom: 5px;
+    height: 36px;
+
+    border-radius: 8px;
+}
+
+div#formulario > form > p > input {
+    position: absolute;
+    height: 30px;
+    width: 170px;
+    bottom: 2px;
+    right: 2px;
+
+    border-radius: 8px;
+    border-style: none;
+}
+
+div#formulario > form > input {
+    display: block;
+    font-weight: bolder;
+    width: 100%;
+    height: 5vh;
+
+    color: rgba(41, 212, 231, 0.678);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+div#formulario > form > input#ientrar {
+    background-color: rgba(23, 129, 182, 0.696);
+    color: white;
+}
+
+
+div#formulario > form > input#ientrar:hover {
+    background-color: rgba(41, 212, 231, 0.678);
+}
+
+div#formulario > form > input#ireset {
+    color: rgb(47, 106, 169);
+}
+
+div#formulario > form > input#ireset:hover {
+    color: white;
+    background-color: rgba(23, 129, 182, 0.696);
 }
